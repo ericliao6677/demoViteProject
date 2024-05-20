@@ -46,6 +46,11 @@ const router = createRouter({
       path: '/v-for',
       name: 'v-for',
       component: () => import('../views/demo/06_VForView.vue')
+    },
+    {
+      path: '/ref',
+      name: 'ref',
+      component: () => import('../views/demo/07_refView.vue')
     }
   ]
 });
