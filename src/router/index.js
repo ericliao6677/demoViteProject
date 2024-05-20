@@ -41,6 +41,11 @@ const router = createRouter({
       path: '/v-if',
       name: 'v-if',
       component: () => import('../views/demo/05_VifView.vue')
+    },
+    {
+      path: '/v-for',
+      name: 'v-for',
+      component: () => import('../views/demo/06_VForView.vue')
     }
   ]
 });

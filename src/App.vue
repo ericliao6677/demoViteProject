@@ -10,6 +10,7 @@ import { RouterLink, RouterView } from 'vue-router';
       <RouterLink to="/v-on">3. v-on</RouterLink>
       <RouterLink to="/v-model">4. v-model</RouterLink>
       <RouterLink to="/v-if">5. v-if</RouterLink>
+      <RouterLink to="/v-for">6. v-for</RouterLink>
     </div>
   </aside>
 
