@@ -48,9 +48,14 @@ const router = createRouter({
       component: () => import('../views/demo/06_VForView.vue')
     },
     {
-      path: '/ref',
-      name: 'ref',
-      component: () => import('../views/demo/07_refView.vue')
+      path: '/refAttributeView',
+      name: 'refAttributeView',
+      component: () => import('../views/demo/07_RefAttributeView.vue')
+    },
+    {
+      path: '/watchView',
+      name: 'watchView',
+      component: () => import('../views/demo/08_WatchView.vue')
     }
   ]
 });

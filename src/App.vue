@@ -11,7 +11,8 @@ import { RouterLink, RouterView } from 'vue-router';
       <RouterLink to="/v-model">4. v-model</RouterLink>
       <RouterLink to="/v-if">5. v-if</RouterLink>
       <RouterLink to="/v-for">6. v-for</RouterLink>
-      <RouterLink to="/ref">7. ref</RouterLink>
+      <RouterLink to="/refAttributeView">7. Ref AttributeView</RouterLink>
+      <RouterLink to="/watchView">8. watch</RouterLink>
     </div>
   </aside>
 

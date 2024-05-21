@@ -6,6 +6,7 @@ const pElementRef = ref(null);
 
 onMounted(() => {
   pElementRef.value.textContent = 'mounted!';
+  console.log(`the component is now mounted.`);
 });
 </script>
 
