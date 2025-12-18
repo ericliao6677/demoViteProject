@@ -20,6 +20,7 @@ const titleClass = ref('');
     <input type="text" v-model="titleClass" />
     <!--模板中存取的message ref 時不需要使用.value-->
     <h1>{{ titleClass }}</h1>
+    <h5>測試 git hub trigger</h5>
   </div>
 </template>
 <style></style>
